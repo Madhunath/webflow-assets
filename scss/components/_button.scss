@@ -1,0 +1,243 @@
+.btn-primary {
+    font-size: $font-size-15;
+    font-weight: $font-weight-semibold;
+    color: $white;
+    padding: 10px 20px;
+    border: 1px solid $primary;
+    border-radius: 50px;
+    background: $primary;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    @include respond-below(custom767) {
+        font-size: $font-size-14;
+        padding: 8px 15px;
+    }
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.active,
+.btn-primary:active,
+.open > .dropdown-toggle.btn-primary {
+    border: 1px solid $primary-hover;
+    background: $primary-hover;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary.focus:active,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open > .dropdown-toggle.btn-primary.focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.open > .dropdown-toggle.btn-primary:hover {
+    background-color: $primary-hover;
+    border: 1px solid $primary-hover;
+}
+.btn-primary.active:focus:not(:disabled):not(.disabled), 
+.btn-primary:active:focus:not(:disabled):not(.disabled), 
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: unset;
+}
+.btn-secondary {
+    font-size: $font-size-15;
+    font-weight: $font-weight-semibold;
+    color: $white;
+    padding: 10px 20px;
+    border: 1px solid $secondary;
+    border-radius: 50px;
+    background: $secondary;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    @include respond-below(custom767) {
+        font-size: $font-size-14;
+        padding: 8px 15px;
+    }
+}
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.active,
+.btn-secondary:active,
+.open > .dropdown-toggle.btn-secondary {
+    border: 1px solid $primary;
+    background: $primary;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-secondary.active.focus,
+.btn-secondary.active:focus,
+.btn-secondary.active:hover,
+.btn-secondary.focus:active,
+.btn-secondary:active:focus,
+.btn-secondary:active:hover,
+.open > .dropdown-toggle.btn-secondary.focus,
+.open > .dropdown-toggle.btn-secondary:focus,
+.open > .dropdown-toggle.btn-secondary:hover {
+    background-color: $primary;
+    border: 1px solid $primary;
+}
+.btn-secondary.active:focus:not(:disabled):not(.disabled), 
+.btn-secondary:active:focus:not(:disabled):not(.disabled), 
+.show > .btn-secondary.dropdown-toggle:focus {
+    box-shadow: unset;
+}
+.btn-light {
+    font-size: $font-size-15;
+    font-weight: $font-weight-medium;
+    color: $black;
+    padding: 10px 20px;
+    border: 1px solid $border-color;
+    background: $white;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    @include respond-below(custom767) {
+        font-size: $font-size-14;
+        padding: 8px 15px;
+    }
+}
+.btn-light:hover,
+.btn-light:focus,
+.btn-light.active,
+.btn-light:active,
+.open > .dropdown-toggle.btn-light {
+    border: 1px solid $border-color;
+    background: $border-color;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn-light.active.focus,
+.btn-light.active:focus,
+.btn-light.active:hover,
+.btn-light.focus:active,
+.btn-light:active:focus,
+.btn-light:active:hover,
+.open > .dropdown-toggle.btn-light.focus,
+.open > .dropdown-toggle.btn-light:focus,
+.open > .dropdown-toggle.btn-light:hover {
+    background-color: $border-color;
+    border: 1px solid $border-color;
+}
+.btn-light.active:focus:not(:disabled):not(.disabled), 
+.btn-light:active:focus:not(:disabled):not(.disabled), 
+.show > .btn-light.dropdown-toggle:focus {
+    box-shadow: unset;
+}
+.select2-container--default .select2-selection--single{
+    height: 40px !important;
+    border: 1px solid #E4E8EB !important;
+    padding: 5px 10px !important;
+    border-radius: 6px !important;
+}
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: $primary !important;
+    color: $white !important;
+}
+.btn-hvr, .link-hvr {
+	overflow: hidden;
+	z-index: 1;
+	transition: all 0.3s ease 0s;
+    position: relative;
+    &::after{
+        content: "";
+        display: block;
+        width: 150px;
+        height: 48px;
+        border-radius: 50%;
+        background: $secondary;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: -1;
+        transform: translate(-50%, -50%) scale(0);
+        transition: all 0.5s ease 0s;
+    }
+    &:hover{
+        &::after{
+            transform: translate(-50%, -50%) scale(5);
+	        background: rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+.link-tag{
+    background-color: $primary;
+    height:44px;
+    color: $white;
+    font-size: $font-size-14;
+    font-weight: 600;
+    padding:0 25px;
+    transition: all 0.7s ease 0s;
+    line-height: 44px;
+    &:hover{
+        background-color: $secondary;
+        color:$white;
+    }
+    @include respond-below(custom575){
+        width: 49%;
+    }
+}
+.link-hvr {
+	overflow: hidden;
+	z-index: 1;
+	transition: all 0.3s ease 0s;
+    position: relative;
+    &::after{
+        content: "";
+        display: block;
+        width: 80px;
+        height: 48px;
+        border-radius: 50%;
+        background: $primary;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: -1;
+        transform: translate(-50%, -50%) scale(0);
+        transition: all 0.5s ease 0s;
+    }
+    &:hover{
+        &::after{
+            transform: translate(-50%, -50%) scale(5);
+	        background: rgba(0, 0, 0, 0.2);
+        }
+    }
+}

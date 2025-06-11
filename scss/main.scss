@@ -1,0 +1,31 @@
+/****** Utils ******/
+@import "utils/variables";
+@import "utils/mixins";
+
+/******* Base *******/
+@import "base/base";
+
+/******* Components ******/
+@import "components/avatar";
+@import "components/boostrap";
+@import "components/button";
+@import "components/tables";
+@import "components/breadcrumb";
+
+/******* Vendors ******/
+@import "vendors/select2";
+@import "vendors/datatables";
+
+/****** Layout ******/
+@import "layout/content";
+@import "layout/common";
+@import "layout/header";
+
+/****** Pages ******/
+@import "pages/home";
+@import "pages/pricing";
+@import "pages/feature";
+@import "pages/inventory";
+@import "pages/brick_and_mortar";
+@import "pages/features_patient";
+@import "pages/blog";

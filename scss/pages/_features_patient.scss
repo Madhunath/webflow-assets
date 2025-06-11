@@ -1,0 +1,113 @@
+.faq-section, .patientProfile-section{
+    padding:110px 0;
+}
+.patientProfile-sectionBg{
+    background: linear-gradient(180deg, rgba(234, 255, 253, 1) 18.65%, rgba(251, 255, 254, 1) 45.52%);
+    position: relative;
+    .patientProfile-overlayBg{
+        content: '';
+        position: absolute;
+        top: -40px;
+        right:0;
+    }
+}
+.patientInner-row{
+    margin-top: 110px;
+}
+.accordion-faq{
+    .accordion-item{
+        margin-bottom: 24px;
+        border:0;
+        .accordion-header{
+            button{
+                padding: 15px;
+                font-size: $font-size-18;
+                font-weight:$font-weight-bold;
+                background-color: var(--faq-color, #F5F5F9);
+                border:0;
+                transition: transform 0.2s !important;
+                &::after{
+                    content: "+"; /* default state */
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                    margin-left: auto;
+                    transition: transform 0.2s !important;
+                    background-image: none;
+                }
+                &:not(.collapsed){
+                    &::after{
+                        content: "−"; /* when expanded */
+                        background-image: none;
+                        transform: none !important;
+                    }
+                }
+            }
+        }
+        .accordion-collapse{
+            .accordion-body{
+                padding: 15px 0 0;
+                font-size: $font-size-15;
+                font-weight: $font-weight-normal;   
+            }
+        }
+    }
+}
+.features-section{
+    padding: 110px 0;
+    background: linear-gradient(180deg, rgba(234, 255, 253, 1) 18.65%, rgba(251, 255, 254, 1) 45.52%);
+    .featuresList-group{
+        h6{
+            color:$primary;
+            font-size: $font-size-13;
+            margin-bottom: 24px;
+        }
+        ul{
+            li{
+                background-color: $white;
+                padding: 10px;
+                border-radius: 10px;
+                margin-top: 16px;
+                transition: all 0.5s;
+                a{
+                    color:$black;
+                    display: flex;
+                    align-items: center;
+                    column-gap: 10px;
+                    font-size:$font-size-14;
+                    i{
+                        font-size: $font-size-18;
+                    }
+                }
+                &:hover{
+                    background-color: $primary;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+                    a{
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+.patientTop-profile{
+    margin-top: 70px;
+}
+.patientProfile-card{
+    background-color: transparent;
+    padding: 0;
+    box-shadow: none;
+    border:0;
+    .patientProfile-cardBody{
+        padding: 15px 0 24px;
+        small{
+            color: $primary;
+            font-weight: $font-weight-semibold;
+        }
+        h5{
+            margin: 15px 0;
+        }
+        p{
+            font-size: $font-size-15;
+        }
+    }
+}

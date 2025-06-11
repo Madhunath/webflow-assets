@@ -1,0 +1,190 @@
+// Base Font
+$font-size-base: 14px;
+$font-size-sm: $font-size-base * .875;
+$font-size-lg: $font-size-base * 1.25;
+$font-weight-lighter: lighter;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-bolder: bolder;
+
+// Font Family
+$font-family-primary: "Montserrat", sans-serif;
+$font-awesome: "Fontawesome";
+	
+// Theme Colors Variables
+$primary: #2CCAB9;
+$primary-hover: darken($primary, 10%);
+$secondary: #26262C;
+$secondary-hover: darken($secondary, 10%);
+$success: #71DE71;
+$success-hover: darken($success, 10%);
+$info: #17a2b8;
+$info-hover: darken($info, 10%);
+$warning: #FF9900;
+$warning-hover: darken($warning, 10%);
+$danger: #FF0000;
+$danger-hover: darken($danger, 10%);
+$dark: #29344a;
+$gray: #606060;
+$gray-100: #E6ECF1;
+$gray-200: #F6F6F6;
+$light: #f8f9fa;
+$white: #ffffff;
+$black: #000000;
+$purple: #7367F0;
+$pink: #ff63a5;
+$blue: #3577f1;
+$dark-blue: #194185;
+$teal: #02a8b5;
+$teal-400: #02CEC2;
+$violet: #423B93;
+$cyan: #299cdb;
+$green: #1dd871;
+$orange: #FFA500;
+$indigo: #4d5ddb;
+$yellow: #ffff00;
+$success-100: #F5FFF5;
+$danger-100: #FFF6F6;
+$danger-200: #FFE4E4;
+
+$colors: (
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+);
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "dark": $dark,
+    "light": $light,
+    "black": $black,
+    "purple": $purple,
+    "yellow": $yellow,
+    "teal": $teal
+);
+
+$text-color: #000000;
+$title-color: #1B2850;
+$sub-title: #B8BCC9;
+$body-bg: #f6f6f6;
+$wrapper-bg: #f1f5f6;
+$text-muted: #9595b5;
+$default-background: #f7f8f9;
+$black-bg: #141432;
+$card-dark-bg: #1d1d42;
+$navy: #353570;
+$theme-title: #97A2D2;
+$input-bg: #2c2c50;
+$footer-bg: #172D52;
+$footer-border: #32538A;
+$company-card: #F6F9FF;
+$form-control-bg: #ffffff;
+$heading-color: #2F4B64;
+$grey-text: #99A2A8;
+$light-color: #BED6E7;
+$border-400: #79B4DD;
+$thead-bg: #F1F4F6;
+$bg-light-success: #EAFFEA;
+$bg-light-danger: #FFEAEA;
+$bg-light-warning: #FFF3DC;
+$feature-text: #EBEFF2;
+$work-100: #ECF3FF;
+$work-200: #FFF5E2;
+$work-300: #FFEFEF;
+$work-400: #E5FFE5;
+
+// Social Icons Colors
+$facebook: #3B5998;
+$twitter: #00ACEE;
+$google: #DD4B39;
+$telegram: #0088CC;
+$linkedin: #0E76A8;
+$youtube: #C4302B;
+$instagram: #3F729B;
+$reddit: #C6C6C6;
+$pinterest: #cc2127;
+$vk: #2B587A;
+$rss: #EE802F;
+$skype: #00AFF0;
+$xing: #126567;
+$tumblr: #34526F;
+$email: #6567A5;
+$delicious: #205CC0;
+$stumbleupon: #F74425;
+$digg: #191919;
+$blogger: #FC4F08;
+$flickr: #FF0084;
+$vimeo: #86C9EF;
+$yahoo: #720E9E;
+$gplus: #DD4B39;
+$appstore: #000;
+
+// Border
+$border-width: 1px;
+$border-style: solid;
+$border-color: #E4E8EB;
+$default-border: #000;
+$input-border: #e9edf6;
+
+// Border Radius
+$border-radius: 6px;
+$border-radius-sm: 3px;
+$border-radius-lg: 5px;
+$border-radius-xl: 8px;
+$border-radius-xxl: 12px;
+$rounded: 50%;
+$rounded-pill: 1.5rem;
+
+// Box Shadow
+$box-shadow: 0px 1px 10px 0px #00000026;
+$box-shadow-sm: 0px 4px 20px 0px #00000040;
+$box-shadow-lg:  0px 4px 15px 0px #0000000D;
+$box-shadow-dropdown: 0px 2px 25px 0px #00000026;
+$header-box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.15);
+
+// Font Size
+$font-size-8: 8px;
+$font-size-9: 9px;
+$font-size-10: 10px;
+$font-size-11: 11px;
+$font-size-12: 12px;
+$font-size-13: 13px;
+$font-size-14: 14px;
+$font-size-15: 15px;
+$font-size-16: 16px;
+$font-size-17: 17px;
+$font-size-18: 18px;
+$font-size-20: 20px;
+$font-size-22: 22px;
+$font-size-24: 24px;
+$font-size-26: 26px;
+$font-size-28: 28px;
+$font-size-30: 30px;
+$font-size-32: 32px;
+$font-size-34: 34px;
+$font-size-36: 36px;
+$font-size-38: 38px;
+$font-size-40: 40px;
+$font-size-42: 42px;
+$font-size-44: 44px;
+$font-size-46: 46px;
+$font-size-50: 50px;
+$font-size-54: 54px;
+$font-size-56: 56px;
+$font-size-60: 60px;
+

@@ -1,0 +1,714 @@
+.feature-inner-section {
+	padding: 80px 0;
+	@include respond-below(custom991) {
+		padding: 60px 0;
+	}
+	@include respond-below(custom767) {
+		padding: 40px 0;
+	}
+}
+.feature-content {
+	max-width: 520px;
+	@include respond-below(custom767) {
+		padding-bottom: 20px;
+	}
+	h4 {
+		font-size: $font-size-34;
+		font-weight: $font-weight-bold;
+		margin-bottom: 24px;
+		@include respond-below(custom991) {
+			font-size: $font-size-26;
+		}
+		@include respond-below(custom767) {
+			font-size: $font-size-20;
+			margin-bottom: 20px;
+		}
+	}
+	p {
+		margin-bottom: 24px;
+		@include respond-below(custom767) {
+			margin-bottom: 20px;
+		}
+	}
+	.btn {
+		font-size: $font-size-14;
+		padding: 11px 48px;
+		@include respond-below(custom767) {
+			padding: 8px 30px;
+		}
+	}
+}
+.feature-inner-img {
+	position: relative;
+	.smile-icon {
+		position: absolute;
+		top: 35%;
+        left: -50px;
+		-webkit-animation: 4s linear infinite spinner-border;
+    	animation: 4s linear infinite spinner-border;
+    	@include respond-below(custom991) {
+    		display: none;
+    	}
+	}
+	.smile-icon-left {
+		left: 0px;
+	}
+	.profiles-icon {
+		position: absolute;
+		top: 35%;
+        left: -80px;
+        animation: floatUpDown 2s ease-in-out infinite;
+		@include respond-below(custom991) {
+    		display: none;
+    	}
+	}
+}
+.faq-section.faq-section-inner {
+	padding: 80px 0;
+	@include respond-below(custom991) {
+		padding: 60px 0;
+	}
+	@include respond-below(custom767) {
+		padding: 40px 0;
+	}
+}
+.feature-scheduling-section {
+	position: relative;
+	overflow: hidden;
+	padding: 80px 0;
+	background: linear-gradient(212.38deg, #EAFFFD 6.52%, #FBFFFE 80.6%);
+	@include respond-below(custom991) {
+		padding: 60px 0;
+	}
+	@include respond-below(custom767) {
+		padding: 40px 0;
+	}	
+}
+.feature-inner-content {
+	max-width: 520px;
+	@include respond-below(custom991) {
+		padding-bottom: 20px;
+	}
+	h6 {
+		font-size: $font-size-16;
+		text-transform: uppercase;
+		color: $primary;
+		margin-bottom: 24px;
+		@include respond-below(custom767) {
+			margin-bottom: 15px;
+		}
+	}
+	h4 {
+		font-size: $font-size-28;
+		font-weight: $font-weight-bold;
+		margin-bottom: 24px;
+		@include respond-below(custom991) {
+			font-size: $font-size-26;
+		}
+		@include respond-below(custom767) {
+			font-size: $font-size-20;
+			margin-bottom: 15px;
+		}
+	}
+	p {
+		margin-bottom: 24px;
+		@include respond-below(custom767) {
+			margin-bottom: 15px;
+		}
+	}
+	h5 {
+		font-size: $font-size-18;
+		margin-bottom: 24px;
+		@include respond-below(custom991) {
+			font-size: $font-size-16;
+			margin-bottom: 15px;
+		}
+	}
+	.btn {
+		font-size: $font-size-14;
+		padding: 11px 48px;
+		@include respond-below(custom767) {
+			padding: 8px 30px;
+		}
+	}
+}
+.feature-imgs {
+	background: #DDF8F6;
+	border-radius: 30px;
+	padding: 50px;
+	@include respond-below(custom991) {
+		padding: 30px;
+	}
+	@include respond-below(custom767) {
+		padding: 15px;
+	}
+}
+.feature-content-two {
+	padding-top: 80px;
+	@include respond-below(custom991) {
+		padding-top: 60px;
+	}
+	@include respond-below(custom767) {
+		padding-top: 40px;
+	}
+	.feature-imgs {
+		margin-bottom: 20px;
+	}
+	.feature-inner-content {
+		padding-bottom: 0;
+		margin-left: auto;
+		@include respond-below(custom991) {
+			margin-left: 0;
+		}
+	}
+}
+.feature-content-three {
+	padding-top: 80px;
+	@include respond-below(custom991) {
+		padding-top: 60px;
+	}
+	@include respond-below(custom767) {
+		padding-top: 40px;
+	}
+}
+.integrated-info {
+	padding-top: 24px;
+	border-top: 1px solid #D0D0D7;
+	@include respond-below(custom767) {
+		padding-top: 20px;
+	}
+	.integrated-grid {
+		padding: 16px;
+		border-radius: 10px;
+		border: 1px solid #D0D0D7;
+		margin-bottom: 20px;
+		text-align: center;
+		-webkit-transition: all 0.7s ease;
+	    -ms-transition: all 0.7s ease;
+	    transition: all 0.7s ease;
+	    &:hover {
+	    	-webkit-transition: all 0.7s ease;
+		    -ms-transition: all 0.7s ease;
+		    transition: all 0.7s ease;
+		    .integrated-icon {
+		    	transform: rotate(90deg);
+			    -webkit-transform: rotate(90deg);
+			    -ms-transform: rotate(90deg);
+			    -webkit-transition: all 0.7s ease;
+			    -ms-transition: all 0.7s ease;
+			    transition: all 0.7s ease;
+			    i {
+			    	transform: rotate(-90deg);
+				    -webkit-transform: rotate(-90deg);
+				    -ms-transform: rotate(-90deg);
+				    -webkit-transition: all 0.7s ease;
+				    -ms-transition: all 0.7s ease;
+				    transition: all 0.7s ease;
+			    }
+		    }
+	    }
+		.integrated-icon {
+			font-size: $font-size-30;
+			color: $white;
+			width: 60px;
+			min-width: 60px;
+			height: 60px;
+			border-radius: 6px;
+			margin: 0 auto 24px;
+			display: -webkit-box;
+	        display: -ms-flexbox;
+	        display: flex;
+	        -webkit-box-align: center;
+	        -ms-flex-align: center;
+	        align-items: center;
+	        justify-content: center;
+	        -webkit-justify-content: center;
+	        -ms-flex-pack: center;
+	        -webkit-transition: all 0.7s ease;
+		    -ms-transition: all 0.7s ease;
+		    transition: all 0.7s ease;
+		    transform: rotate(0);
+		    -webkit-transform: rotate(0);
+		    -ms-transform: rotate(0);
+	        @include respond-below(custom767) {
+	        	margin: 0 auto 20px;
+	        }
+	        i {
+	        	transform: rotate(0);
+			    -webkit-transform: rotate(0);
+			    -ms-transform: rotate(0);
+	        	-webkit-transition: all 0.7s ease;
+			    -ms-transition: all 0.7s ease;
+			    transition: all 0.7s ease;
+	        }
+		}
+		p {
+			font-size: $font-size-14;
+			font-weight: $font-weight-semibold;
+			margin-bottom: 0;
+		}
+	}
+}
+.contrary-section {
+	position: relative;
+	overflow: hidden;
+	padding: 80px 0;
+	@include respond-below(custom991) {
+		padding: 60px 0;
+	}
+	@include respond-below(custom767) {
+		padding: 40px 0;
+	}
+}
+.contrary-info {
+	background: $secondary;
+	padding: 150px 150px 130px;
+	border-radius: 50px;
+	@include respond-below(custom1199) {
+		padding: 80px;
+	}
+	@include respond-below(custom991) {
+		padding: 50px;
+	}
+	@include respond-below(custom767) {
+		padding: 20px;
+		border-radius: 10px;
+	}
+	.contrary-details {
+		text-align: center;
+		position: relative;
+		max-width: 900px;
+		margin: auto;
+		&:before {
+			content: "";
+			position: absolute;
+			background: url("../img/shapes/shape-11.png") top center no-repeat;
+			background-size: cover;
+			width: 100%;
+			height: 500px;
+			top: 0;
+			left: 0;
+			@include respond-below(custom991) {
+				display: none;
+			}
+		}
+		h2 {
+			font-size: $font-size-40;
+			font-weight: $font-weight-bold;
+			color: $white;
+			margin-bottom: 60px;
+			position: relative;
+			@include respond-below(custom991) {
+				font-size: $font-size-30;
+				margin-bottom: 30px;
+			}
+			@include respond-below(custom767) {
+				font-size: $font-size-20;
+			}
+		}
+		.contrary-grid {
+			background: linear-gradient(212.38deg, #EAFFFD 6.52%, #FBFFFE 80.6%);
+			border-radius: 20px;
+			padding: 48px;
+			margin-bottom: 60px;
+			position: relative;
+			@include respond-below(custom991) {
+				padding: 30px;
+				margin-bottom: 30px;
+			}
+			@include respond-below(custom767) {
+				padding: 20px;
+				margin-bottom: 20px;
+			}
+			h6 {
+				font-size: $font-size-16;
+				margin-bottom: 24px;
+				@include respond-below(custom767) {
+					font-size: $font-size-15;
+					margin-bottom: 20px;
+				}
+			}
+			h4 {
+				font-size: $font-size-24;
+				font-weight: $font-weight-bold;
+				margin-bottom: 24px;
+				@include respond-below(custom767) {
+					font-size: $font-size-15;
+					margin-bottom: 20px;
+				}
+			}
+			p {
+				color: $primary;
+				margin-bottom: 0;
+			}
+		}
+		.contrary-list {
+			ul {
+				padding: 0;
+				margin: 0;
+				position: relative;
+				list-style: none;
+				li {
+					font-size: $font-size-15;
+	                font-weight: $font-weight-semibold;
+	                color: $white;
+					display: -webkit-box;
+			        display: -ms-flexbox;
+			        display: flex;
+			        -webkit-box-align: center;
+			        -ms-flex-align: center;
+			        align-items: center;
+			        text-align: left;
+					margin-bottom: 16px;
+					@include respond-below(custom767) {
+						font-size: $font-size-14;
+						font-weight: $font-weight-normal;
+					}
+					span {
+						display: -webkit-box;
+				        display: -ms-flexbox;
+				        display: flex;
+		                -webkit-box-align: center;
+		                -ms-flex-align: center;
+		                align-items: center;
+		                justify-content: center;
+		                -webkit-justify-content: center;
+		                -ms-flex-pack: center;
+		                font-size: $font-size-14;
+		                font-weight: $font-weight-semibold;
+		                color: $primary;
+		                background: #2CCAB926;
+		                margin-right: 10px;
+		                width: 40px;
+		                min-width: 40px;
+	                	height: 40px;
+	                	border-radius: 50px;
+					}
+				}
+			}
+		}
+	}
+}
+.about-section {
+	padding: 80px 0;
+	@include respond-below(custom991) {
+		padding: 60px 0;
+	}
+	@include respond-below(custom767) {
+		padding: 40px 0;
+	}
+}
+.about-info {
+	text-align: center;
+	h2 {
+		font-size: $font-size-34;
+		font-weight: $font-weight-bold;
+		margin-bottom: 24px;
+		@include respond-below(custom991) {
+			font-size: $font-size-28;
+		}
+		@include respond-below(custom767) {
+			font-size: $font-size-20;
+			margin-bottom: 20px;
+		}
+	}
+	p {
+		max-width: 850px;
+		margin: 0 auto 70px;
+		@include respond-below(custom991) {
+			margin: 0 auto 40px;
+		}
+		@include respond-below(custom767) {
+			margin: 0 auto 30px;
+		}
+	}
+}
+.team-section {
+	position: relative;
+    overflow: hidden;
+    padding: 80px 0 60px;
+    background: linear-gradient(212.38deg, #EAFFFD 6.52%, #FBFFFE 80.6%);
+    @include respond-below(custom991) {
+		padding: 60px 0 40px;
+	}
+	@include respond-below(custom767) {
+		padding: 40px 0 20px;
+	}
+}
+.team-head {
+	padding-bottom: 70px;
+	text-align: center;
+	@include respond-below(custom991) {
+			padding-bottom: 40px;
+		}
+		@include respond-below(custom767) {
+			padding-bottom: 30px;
+		}
+	h2 {
+		font-size: $font-size-40;
+		font-weight: $font-weight-bold;
+		margin-bottom: 24px;
+		@include respond-below(custom991) {
+			font-size: $font-size-34;
+		}
+		@include respond-below(custom767) {
+			font-size: $font-size-26;
+			margin-bottom: 20px;
+		}
+	}
+}
+.team-grid {
+	text-align: center;
+	padding-bottom: 40px;
+	@include respond-below(custom767) {
+		padding-bottom: 20px;
+	}
+	.team-img {
+		width: 250px;
+		height: 250px;
+		border-radius: 50%;
+		margin: 0 auto 24px;
+		@include respond-below(custom991) {
+			width: 150px;
+			height: 150px;
+		}
+		@include respond-below(custom767) {
+			margin: 0 auto 15px;
+		}
+		img {
+			width: 250px;
+			height: 250px;
+			border-radius: 50%;
+			object-fit: cover;
+			@include respond-below(custom991) {
+				width: 150px;
+				height: 150px;
+			}
+		}
+	}
+	.team-content {
+		a {
+			font-size: $font-size-18;
+			font-weight: $font-weight-semibold;
+			color: $black;
+			@include respond-below(custom767) {
+				font-size: $font-size-15;
+			}
+			&:hover {
+				color: $primary;
+			}
+		}
+		p {
+			font-size: $font-size-14;
+			margin-top: 10px;
+			margin-bottom: 0;
+			@include respond-below(custom767) {
+				margin-top: 4px;
+			}
+		}
+	}
+}
+.primary-bg {
+	background: $primary;
+}
+.secondary-bg {
+	background: $secondary;
+}
+.orange-bg {
+	background: #F5C394;
+}
+.work-section {
+	position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+    @include respond-below(custom991) {
+		padding: 60px 0;
+	}
+	@include respond-below(custom767) {
+		padding: 40px 0;
+	}
+}
+.work-info {
+	border-radius: 50px;
+	background: #F5F5F9;
+	padding: 110px 48px 80px;
+	@include respond-below(custom991) {
+		padding: 60px 48px 30px;
+	}
+	@include respond-below(custom767) {
+		border-radius: 10px;
+		padding: 20px 20px 20px;
+	}
+	h2 {
+		font-size: $font-size-34;
+		font-weight: $font-weight-bold;
+		margin-bottom: 70px;
+		text-align: center;
+		@include respond-below(custom991) {
+			font-size: $font-size-28;
+			margin-bottom: 30px;
+		}
+		@include respond-below(custom767) {
+			font-size: $font-size-24;
+		}
+	}
+	.work-grid {
+		background: $white;
+		border-radius: 20px;
+		padding: 48px;
+		margin-bottom: 30px;
+		text-align: center;
+		-webkit-transition: all 0.7s ease;
+	    -ms-transition: all 0.7s ease;
+	    transition: all 0.7s ease;
+		@include respond-below(custom991) {
+			padding: 30px;
+		}
+		@include respond-below(custom767) {
+			padding: 20px;
+			margin-bottom: 20px;
+		}
+		&:hover {
+	    	-webkit-transition: all 0.7s ease;
+		    -ms-transition: all 0.7s ease;
+		    transition: all 0.7s ease;
+		    .work-icon {
+		    	transform: rotate(90deg);
+			    -webkit-transform: rotate(90deg);
+			    -ms-transform: rotate(90deg);
+			    -webkit-transition: all 0.7s ease;
+			    -ms-transition: all 0.7s ease;
+			    transition: all 0.7s ease;
+			    i {
+			    	transform: rotate(-90deg);
+				    -webkit-transform: rotate(-90deg);
+				    -ms-transform: rotate(-90deg);
+				    -webkit-transition: all 0.7s ease;
+				    -ms-transition: all 0.7s ease;
+				    transition: all 0.7s ease;
+			    }
+		    }
+	    }
+		.work-icon {
+			font-size: $font-size-30;
+			color: $white;
+			width: 60px;
+			min-width: 60px;
+			height: 60px;
+			border-radius: 6px;
+			margin: 0 auto 30px;
+			display: -webkit-box;
+	        display: -ms-flexbox;
+	        display: flex;
+	        -webkit-box-align: center;
+	        -ms-flex-align: center;
+	        align-items: center;
+	        justify-content: center;
+	        -webkit-justify-content: center;
+	        -ms-flex-pack: center;
+	        -webkit-transition: all 0.7s ease;
+		    -ms-transition: all 0.7s ease;
+		    transition: all 0.7s ease;
+		    transform: rotate(0);
+		    -webkit-transform: rotate(0);
+		    -ms-transform: rotate(0);
+	        @include respond-below(custom767) {
+	        	margin: 0 auto 20px;
+	        }
+	        i {
+	        	transform: rotate(0);
+			    -webkit-transform: rotate(0);
+			    -ms-transform: rotate(0);
+	        	-webkit-transition: all 0.7s ease;
+			    -ms-transition: all 0.7s ease;
+			    transition: all 0.7s ease;
+	        }
+		}
+		h4 {
+			font-size: $font-size-24;
+			font-weight: $font-weight-bold;
+			margin-bottom: 24px;
+			@include respond-below(custom767) {
+				font-size: $font-size-20;
+				margin-bottom: 15px;
+			}
+		}
+		p {
+			font-size: $font-size-15;
+			margin-bottom: 24px;
+			@include respond-below(custom767) {
+				font-size: $font-size-14;
+				margin-bottom: 15px;
+			}
+		}
+		a {
+			font-size: $font-size-15;
+			font-weight: $font-weight-semibold;
+			color: $black;
+			display: -webkit-inline-box;
+	        display: -ms-inline-flexbox;
+	        display: inline-flex;
+	        -webkit-box-align: center;
+	        -ms-flex-align: center;
+	        align-items: center;
+	        justify-content: center;
+	        -webkit-justify-content: center;
+	        -ms-flex-pack: center;
+        	-webkit-transition: all 0.7s ease;
+		    -ms-transition: all 0.7s ease;
+		    transition: all 0.7s ease;
+		    @include respond-below(custom767) {
+				font-size: $font-size-14;
+			}
+	        &:hover {
+	        	color: $primary;
+	        	-webkit-transition: all 0.7s ease;
+			    -ms-transition: all 0.7s ease;
+			    transition: all 0.7s ease;
+	        	i {
+	        		left: 8px;
+	        		-webkit-transition: all 0.7s ease;
+				    -ms-transition: all 0.7s ease;
+				    transition: all 0.7s ease;
+	        	}
+	        }
+			i {
+				font-size: $font-size-22;
+				position: relative;
+				left: 6px;
+				-webkit-transition: all 0.7s ease;
+			    -ms-transition: all 0.7s ease;
+			    transition: all 0.7s ease;
+			}
+		}
+	}
+}
+.policy-section {
+	position: relative;
+    overflow: hidden;
+    padding: 80px 0 60px;
+    @include respond-below(custom991) {
+		padding: 60px 0 30px;
+	}
+	@include respond-below(custom767) {
+		padding: 40px 0 20px;
+	}
+}
+.policy-info {
+	padding-bottom: 24px;
+	@include respond-below(custom767) {
+		padding-bottom: 20px;
+	}
+	h6 {
+		font-size: $font-size-16;
+		font-weight: $font-weight-semibold;
+		margin-bottom: 15px;
+	}
+	p {
+		font-size: $font-size-14;
+		margin-bottom: 10px;
+		display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+	}
+}

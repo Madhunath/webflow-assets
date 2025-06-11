@@ -1,0 +1,316 @@
+.section-header.inventory-header {
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+	h5 {
+		font-size: 30px;
+		margin-bottom: 24px;
+		font-weight: 700;
+	}
+	p {
+		margin: 0;
+	}
+}
+.inventor-management-features {
+    padding: 80px 30px 50px;
+    background: #26262C;
+    border-radius: 50px;
+	position: relative;
+	@include respond-below(custom991) {
+		padding: 20px;
+		border-radius: 5px;
+	}
+
+	&:after{
+		position: absolute;
+		content: "";
+		background: url("../../assets/img/shapes/shape-10.png");
+		width: 100%;
+		height: 500px;
+		bottom: 0px;
+		left: 0;
+		z-index: -1;
+	}
+	
+	.feature-contentview {
+		background: rgba(255, 255, 255, 0.1);
+		margin-bottom: 30px;
+		border-radius: 20px;
+		padding: 20px;
+		.feature-contenthead {
+			display: flex;
+			align-items: center;
+			padding-bottom: 15px;
+			margin-bottom: 15px;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+			span {
+				background: rgba(44, 202, 185, 0.15);
+				width: 30px;
+				height: 30px;
+				border-radius: 50px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-right: 9px;
+				color: #2CCAB9;
+				font-size: 12px;
+			}
+			h6 {
+				color: #FFFFFF;
+			}
+			
+		}
+		.feature-content-div{
+			p {
+				color: rgba(255, 255, 255, 0.77);
+			}
+		}
+	}
+
+}
+.availabllity-bg{
+	background: url("../../assets/img/banner/banner-bg.png");
+}
+.feature-contents {
+	max-width: 850px;
+	width: 100%;
+	margin: auto;
+	h5 {
+		font-weight: 700;
+		font-size: 30px;
+		color: #fff;
+		margin: 20px 0 15px;
+		@include respond-below(custom991) {
+			font-size: 20px;
+		}
+	}
+	p {
+		color: rgba(255, 255, 255, 0.77);
+	}
+	.btn {
+		min-width: 200px;
+	}
+}
+.schedule-time{
+	color: rgba(255, 255, 255, 0.68);
+}
+.badge-feature {
+	background: rgba(44, 202, 185, 0.15);
+	border: 1px solid #2CCAB9;
+	border-radius: 50px;
+	color: #2CCAB9;
+	font-weight: 400;
+}
+.multi-levelset {
+	background: #2CCAB9;
+	border-radius: 30px;
+	padding: 40px;
+	@include respond-below(custom991) {
+		padding: 20px;
+	}
+}
+.section-shape{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+}
+.multi-level-slider {
+	img{
+		border-radius: 10px;
+	}
+	.owl-prev {
+		position: absolute;
+		top: 50%;
+		left: -130px;
+		border: 1px solid #2CCAB9 !important;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		height: 50px;
+		color: rgba(38, 38, 44, 0.5) !important;
+		border-radius: 50px;
+		background: linear-gradient(212.38deg, #EAFFFD 6.52%, #FBFFFE 80.6%) !important;
+		&:hover{
+			background: #2CCAB9 !important;
+			color: #fff;
+		}
+		@include respond-below(custom991) {
+			width: 25px;
+			height: 25px;
+			left: 0;
+		}
+	}
+	.owl-next {
+		position: absolute;
+		top: 50%;
+		right: -130px;
+		border: 1px solid #2CCAB9 !important;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		height: 50px;
+		color: rgba(38, 38, 44, 0.5) !important;
+		border-radius: 50px;
+		background: linear-gradient(212.38deg, #EAFFFD 6.52%, #FBFFFE 80.6%) !important;
+		&:hover{
+			background: #2CCAB9 !important;
+			color: #fff !important;
+		}
+		@include respond-below(custom991) {
+			width: 25px;
+			height: 25px;
+			right: 0;
+		}
+	}
+}
+.how-work-path{
+	margin-bottom: 80px;
+	@include respond-below(custom991) {
+		margin-bottom: 40px;
+	}
+}
+.feature-inner-imgs {
+    background: #DDF8F6;
+    padding: 25px;
+    border-radius: 10px;
+	img{
+		border-radius: 10px;
+	}
+}
+.scedule-avliblity-width{
+	width: 432px;
+	box-shadow: 0px 0px 0px 4.45px rgba(44, 202, 185, 0.4);
+	font-size: 24px;
+	max-width: 100%;
+}
+
+.avalabity-calendar-view {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(44, 202, 185, 0.05) 0%, rgba(158, 228, 220, 0.05) 100%);
+    border: 1px solid rgba(44, 202, 185, 0.2);
+    border-radius: 5px;
+    padding: 15px;
+    flex-wrap: wrap;
+	max-width: 620px;
+    margin: auto;
+}
+.avalabity-calendar-slots {
+    margin-left: 15px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #E6EAED;
+}
+.matric-div .telehealth-set{
+    border-radius: 5px;
+}
+.avalabity-calendar-nameimg {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.avalabity-calendar-img img {
+    width: 77px;
+    height: 77px;
+    border-radius: 50px;
+}
+.avalabity-calendar-iconslots span {
+    background: rgba(44, 202, 185, 0.1);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-right: 15px;
+    color: #2CCAB9;
+    border-radius: 5px;
+}
+.avalabity-calendar-slots-content h5 {
+    font-size: 16px;
+	margin-bottom: 5px;
+}
+.avalabity-calendar-slots-content h6 {
+    font-size: 14px;
+    color: rgba(38, 38, 44, 0.7);
+    margin: 0;
+	display: flex;
+    align-items: center;
+}
+.avalabity-calendar-name h5 {
+    font-size: 16px;
+}
+.avalabity-calendar-name h6 {
+    font-size: 12px;
+    color: #656565;
+    margin: 0;
+}
+.datpicker-inline .bootstrap-datetimepicker-widget {
+    border: 1px solid #E6EAED;
+    border-radius: 10px;
+}
+.datpicker-inline thead {
+    background:#E4E5E7;
+}
+.datpicker-inline thead tr{
+    border-bottom: 1px solid #E6EAED;
+    border-radius: 0;
+}
+.datpicker-inline th ,.datpicker-inline td {
+    padding: 8px;
+}
+.datpicker-inline .bootstrap-datetimepicker-widget table td.active,
+.datpicker-inline .bootstrap-datetimepicker-widget table td.active:hover {
+    background-color: #058b7e;
+    text-shadow: unset;
+    color: #fff !important;
+}
+.datpicker-inline .bootstrap-datetimepicker-widget table td {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 8px !important;
+}
+.date-avlility-sets{
+    background: linear-gradient(180deg, rgba(44, 202, 185, 0.05) 0%, rgba(158, 228, 220, 0.05) 100%);
+    border:1px solid rgba(44, 202, 185, 0.2);
+    border-radius: 5px;
+    padding: 15px 15px 0;
+    margin: 15px 0;
+}
+.avaliable-slots-set ul {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.avaliable-slots-set ul li {
+    width: calc(25% - 10px);
+}
+.avaliable-slots-set h5 {
+    margin-bottom: 15px;
+}
+.avaliable-slots-set a {
+    width: 100%;
+    background: rgba(230, 234, 237, 0.5);
+    padding: 5px;
+    display: block;
+    text-align: center;
+    border-radius: 50px;
+    color: #000000;
+}
+.avaliable-slots-set a:hover{
+    background:#058b7e;
+    color: #fff;
+}
+table.table-condensed {
+    width: 100%;
+    text-align: center;
+}
